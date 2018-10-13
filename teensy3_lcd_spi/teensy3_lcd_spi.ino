@@ -11,6 +11,8 @@ LiquidCrystal_SR3W lcd(4, 3, 2, 6, 7, 0 , 5, 4, 3, 2, 1, POSITIVE);
 #define CLKPIN 13
 #define MOSIPIN 11
 #define CSPIN 10
+
+// You will likely need https://github.com/rambo/SPIMemory/tree/adjust_clock_b4_begin
 #include<SPIMemory.h>
 SPIFlash flash;
 

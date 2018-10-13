@@ -1,5 +1,6 @@
 #include <Bounce2.h>
 #include <elapsedMillis.h>
+// You will likely need https://github.com/rambo/SPIMemory/tree/adjust_clock_b4_begin
 #include<SPIMemory.h>
 
 #define OEPIN 9

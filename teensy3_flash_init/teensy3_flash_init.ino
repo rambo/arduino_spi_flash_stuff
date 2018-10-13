@@ -1,3 +1,5 @@
+
+// You will likely need https://github.com/rambo/SPIMemory/tree/adjust_clock_b4_begin
 #include<SPIMemory.h>
 SPIFlash flash;
 
